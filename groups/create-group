@@ -1,0 +1,10 @@
+
+$SubscriptionId = ''
+
+$newResourceGroupName = ''
+$location = ''
+
+az account set --subscription = $SubscriptionId
+
+$createdResourceGroup = az group create --name $newResourceGroupName --location $location
+
