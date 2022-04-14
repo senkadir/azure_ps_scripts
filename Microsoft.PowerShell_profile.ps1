@@ -14,6 +14,9 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 
+#Create an alias dc for docker-compose
+Set-Alias dc docker-compose
+
 #Create an alias k for kubectl
 Set-Alias k kubectl
 
